@@ -21,4 +21,9 @@ public class Conversiones {
         return formato.format(fecha);
     }
     
+    public static String format(String fecha){
+        SimpleDateFormat formato = new SimpleDateFormat(FORMATO_FECHA);
+        return formato.format(fecha);
+    }
+    
 }
